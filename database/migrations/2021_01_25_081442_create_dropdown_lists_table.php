@@ -19,7 +19,7 @@ class CreateDropdownListsTable extends Migration
             $table->string('name');
             $table->string('code',15)->default('n/a');
             $table->integer('percentage')->unsigned()->default(0);
-            $table->longText('description')->default('n/a');
+            $table->longText('description')->nullable();
             $table->string('type',20);
             $table->boolean('status')->default(0);
             $table->timestamps();
