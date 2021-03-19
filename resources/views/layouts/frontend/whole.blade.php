@@ -21,7 +21,7 @@
             @include('layouts.frontend.footer')
         </div>
 
-        <script src="{{asset('js/app.js')}}"></script>
+        {{-- <script src="{{asset('js/app.js')}}"></script> --}}
         <script src="{{asset('js/frontend.js')}}"></script>
     </body>
 </html>
