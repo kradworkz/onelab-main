@@ -15,7 +15,7 @@
 
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle arrow-none" href="/staffs" id="topnav-dashboard" role="button">
-                            <i class="icofont icofont-users-alt-1 mr-2"></i><span key="t-dashboards">Staffs</span> 
+                            <i class="bx bxs-tv mr-2"></i><span key="t-dashboards">Staffs</span> 
                         </a>
                     </li>
 
