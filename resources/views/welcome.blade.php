@@ -2,7 +2,7 @@
 @section('content')
      
 <section class="section hero-section bg-ico-hero" id="home">
-    <div class="bg-overlay bg-primary"></div>
+    <div class="bg-overlay" style="background-color:#29088A"></div>
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-5">
