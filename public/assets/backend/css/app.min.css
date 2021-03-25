@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&amp;);
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&amp;font-display=swap);
 
 #page-topbar {
     position: fixed;
@@ -4511,7 +4511,7 @@ input[switch=dark]:checked+label {
 }
 
 .hero-section.bg-ico-hero {
-    background-image: url("/assets/backend/images/crypto/bg-ico-hero.jpg");
+    /* background-image: url("/assets/backend/images/crypto/bg-ico-hero.jpg"); */
     background-size: cover;
     background-position: top
 }
