@@ -10,8 +10,8 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <script>window.Laravel = { csrfToken: '{{ csrf_token() }}' }</script>
 
-    <link rel="shortcut icon" href="{{asset('assets/backend/images/icon.png')}}">
-    <link type="text/css" rel="stylesheet" href="{{asset('css/backend.css')}}" />
+    <link rel="shortcut icon" href="{{asset('assets/backend/images/icon.png')}}" async>
+    <link type="text/css" rel="stylesheet" href="{{asset('css/backend.css')}}" async/>
 </head>
 
     <body data-topbar="dark" data-layout="horizontal">
@@ -21,7 +21,7 @@
             @include('layouts.frontend.footer')
         </div>
 
-        <script src="{{asset('js/app.js')}}"></script>
-        <script src="{{asset('js/frontend.js')}}"></script>
+        <script src="{{asset('js/app.js')}}" async></script>
+        <script src="{{asset('js/frontend.js')}}" async></script>
     </body>
 </html>
